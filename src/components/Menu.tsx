@@ -1,4 +1,4 @@
-import { Icon360View, IconAB, IconBabyBottle, IconCode, IconHome, IconTie } from "@tabler/icons-react";
+import { Icon360View, IconAB, IconBabyBottle, IconCalculatorFilled, IconCode, IconForms, IconHome, IconTie } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu(){
@@ -10,7 +10,8 @@ export default function Menu(){
             <span className="text-sm text-zinc-500  pl-3 pt-4 ">Estado</span>
             <MenuItem icone={<IconCode />} texto="Componente sem estado" url="/estado/sem"/>
             <MenuItem icone={<IconCode />} texto="Componente com estado" url="/estado/com"/>
-
+            <MenuItem icone={<IconForms />} texto="Campo Texto" url="/estado/campoTexto"/>
+            <MenuItem icone={<IconCalculatorFilled />} texto="Desafio Calculadora" url="/estado/desafioCalculadora"/>
 
             <span className="text-sm text-zinc-500  pl-3 pt-4 ">Componente</span>
             <MenuItem icone={<IconBabyBottle />} texto="Básico" url="/componente/basico"/>

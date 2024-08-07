@@ -1,5 +1,4 @@
-@import url(components.css)
-
+@import url(components.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,4 +32,5 @@ body {
     text-wrap: balance;
   }
 }
+
 

@@ -12,7 +12,7 @@ export default function Page(){
         <Pagina titulo="Minha Aplicacao" subtitulo="A melhor pagina da web!">
             <button 
                 onClick={executar}
-                className="bg-blue-500 rounded-md p-5"
+                className="botao"
             >
                 Entrar
             </button>
